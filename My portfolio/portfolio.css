@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(53, 7, 87);
+
+}
+header{
+    height: 12vh;
+    width: 100vw;
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    position: fixed;
+    z-index: 80px;
+    top: 0px;
+    
+}
+.logo{
+    font-size: 2.3vw;
+}
+header nav ul{
+    display: flex;
+    text-decoration: none;
+    padding: 5px;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.7vw;
+    color: black;
+    border-bottom: 2px solid transparent;
+}
+.menu-icon{
+    display: none;
+    position: absolute;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    /* background-color: aquamarine; */
+    margin-top: 20px;
+}
+.sub-menu ul{
+    list-style: none;
+    width: 70px;
+}
+.sub-menu ul li{
+    /* border-bottom: 1px solid black; */
+    margin: auto;
+    display: flex;
+    padding: 2px;
+    justify-content: center;
+    border-left: 2px solid transparent;
+    font-size: 15px;
+    width: 70px;
+}
+.sub-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.sub-menu2{
+    display: none;
+    position: absolute;
+}
+.sub-menu3{
+    display: none;
+    position: absolute;
+}
+.hire-me button{
+height: 30px;
+width: 70px;
+font-weight: bold;
+border: none;
+border-radius: 18px;
+color: whitesmoke;
+background-color: black;
+}
+main{
+    z-index: 0px;
+}
+.page1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    z-index: -3;
+}
+.page1 img{
+   
+ padding-top: 5.4vh;
+ border-radius: 50% 20%;
+ border: 3px solid rgb(51, 12, 78);
+ background-color: rgb(60, 14, 93);
+  width: 26.5vw;
+}
+.image{
+    display: flex;
+}
+.name{
+    color: white;
+    display: flex;
+    margin-left: 122px;
+    flex-direction: column;
+    margin-top: 110px;
+}
+.name h2{
+    font-size: 2vw;
+}
+.name h1{
+    font-size: 6vw;
+    color: mediumspringgreen;
+    display: flex;
+    writing-mode: horizontal-tb;
+
+}
+.hi{
+    font-size: 3vw;
+    color: gold;
+}
+.name h4{
+    font-size: 2.5vw;
+    display: flex;
+    border-right: 2px solid goldenrod;
+    animation: type 4s alternate infinite;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes type {
+    from {width: 0%;}
+    to {width: 58%;}
+}
+
+/* ************************************************************************************************************************************ */
+
+.page2{
+    /* display: flex; */
+    height: 120vh;
+    width: 100vw;
+    margin: 20px 5px;
+    /* border-radius: 9px; */
+    /* background-color: rgb(97, 59, 124); */
+    /* border: 3px solid gold; */
+    color: white;
+}
+.skill-box{
+    margin: 22px 30px;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+  
+}
+.skill-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: indigo;
+    border-radius: 8px;
+    /* border: 2px solid red; */
+    margin: 0px 8px;
+    height: 50vh;
+    width: 30vw;
+}
+.skill-header{
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+    color: gold;
+    
+}
+.skill-item img{
+    height: 20vh;
+    /* width: 12vw; */
+}
+.skill-subhead{
+    margin-top: 19px;
+    font-size: 1.8vw;
+}
+
+/* ****************************************************************************************************************** */
+
+.page3{
+    color: white;
+    /* display: none; */
+
+}
+
+footer{
+    background-color: rgb(22, 52, 92);
+    height: 30vh;
+    width: 100vw;
+    margin-top: 13vh;
+    display: flex;
+    color: rgba(255, 255, 255, 0.746);
+    justify-content: space-around;
+    padding-top: 30px;
+    
+}
+footer h3{
+    margin-bottom: 15px;
+}
+.footer-box h5{
+font-weight: bold;
+font-size: 1.3vw;
+}
+.footer-box h5,div,p{
+    margin: 5px;
+}

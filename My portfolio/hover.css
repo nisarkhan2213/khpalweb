@@ -1,0 +1,37 @@
+.name h1:hover{
+    color: white;
+}
+nav ul li a:hover{
+    color: white;
+    animation: navbar .2s ease-in-out;
+    transition: .2s ease-in-out;
+    border-bottom: 2px solid white;
+
+}
+
+@keyframes navbar {
+    from {color: black;}
+    to {color: white;}
+}
+@keyframes hire {
+    from{background-color: black;}
+to{background-color: rgb(57, 156, 102);}
+}
+.hire-me button:hover{
+    background-color: rgb(57, 156, 102);
+    animation: hire .1s;
+}
+ .page1 img:hover{
+    background-color: rgba(76, 22, 114, 0.801);
+}
+.skill-item img:hover{
+    height: 21vh;
+    animation: image .2s ease-in-out;
+}
+@keyframes image {
+    from{height: 20vh;}
+    to{height: 21vh;}
+}
+.footer-box h3:hover{
+    color: white;
+}

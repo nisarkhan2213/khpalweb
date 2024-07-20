@@ -1,0 +1,100 @@
+@media (max-width:600px) {
+    header{
+        height: 6vh;
+        position: fixed;
+        z-index: 8px;
+    }
+    .hire-me button{
+        height: 25px;
+        width: 60px;
+        font-size: 10px;
+    }
+    nav {
+        display: none;
+        position: absolute;
+    }
+    .page1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        height: 100vh;
+    }
+    .page1 img{
+        display: block;
+        width: 60vw;
+        border-radius: 30%;
+        margin-bottom: auto;
+    }
+    .name{
+      margin-right: 47vw;
+      margin-bottom: auto;
+      bottom: 8vw;
+      white-space: nowrap;
+    }
+    .page2{
+        display: block;
+        justify-content: center;
+    }
+    .page3{
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    .skill-box{
+        height: 100%;
+        width: 100vw;
+        display: block;
+        /* flex-direction: column; */
+        /* grid-template-columns: auto; */
+        margin-top: auto;
+    }
+    .skill-item{
+        /* height: 30vh;
+        width: 60vw; */
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        /* position: relative; */
+        justify-content: center;
+        /* align-items: center; */
+        margin:auto;
+    }
+    .skill-header{
+        margin: auto;
+    }
+    .skill-item h4{
+        font-size: 3vw;
+    }
+    .menu-icon {
+        display: flex;
+        position: relative;
+        /* left: 0vw; */
+        font-size: 3vw;
+    }
+    .menu-icon:hover .sub-menu{
+        display: block;
+    }
+    .menu-icon:hover .sub-menu ul{
+        background-color: mediumseagreen;
+    }
+    .menu-icon:hover .sub-menu ul li:hover{
+        background-color: rgb(47, 141, 89);
+        border-left: 2px solid white;
+    }
+    .menu-icon:hover .sub-menu ul li:hover .sub-menu2{
+        display: block;
+        margin-left: 143px;
+        position:absolute;
+        top: 10vh;
+        
+    }
+    .menu-icon:hover .sub-menu ul li:hover .sub-menu2 li:hover .sub-menu3{
+     display: block;   
+     margin-left: 143px;
+     position:absolute;
+     top: 10vh;
+    }
+
+    
+}
